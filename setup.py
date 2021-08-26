@@ -11,8 +11,8 @@ from setuptools import setup
 
 setup(
     name='Flask-Sockets',
-    version='0.2.1.1',
-    url='https://github.com/kennethreitz/flask-sockets',
+    version='1.0.0',
+        url='https://github.com/APrioriInvestments/flask-sockets',
     license='See License',
     author='Kenneth Reitz',
     author_email='_@kennethreitz.com',
@@ -23,7 +23,7 @@ setup(
     include_package_data=True,
     platforms='any',
     install_requires=[
-        'Flask',
+        'Flask < 2.0',
         'gevent',
         'gevent-websocket'
     ],
